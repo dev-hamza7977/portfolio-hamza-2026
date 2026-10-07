@@ -7,12 +7,13 @@
   <title>Hamza Meghani — Frontend Web Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-  <div class="cursor-glow"></div>
-  <div class="page-noise"></div>
+
+<div class="page-noise"></div>
 
   <header class="nav" id="nav">
     <a class="brand" href="#home" aria-label="Hamza Meghani home">
@@ -27,7 +28,27 @@
       <a href="#projects">Projects</a>
       <a href="#services">Services</a>
       <a href="#contact" class="nav-cta">Let's Talk <span>↗</span></a>
-    </nav>
+    
+<a class="nav-whatsapp" href="https://wa.me/917977027359" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span>
+      </a>
+      <div class="theme-switcher-pro" id="themeSwitcherPro">
+  <button class="theme-switcher-button" id="themeSwitcherButton" type="button"
+          aria-expanded="false" aria-controls="themeSwitcherMenu">
+    <i class="fa-solid fa-palette" aria-hidden="true"></i>
+    <span>Theme</span>
+    <i class="fa-solid fa-chevron-down theme-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="theme-switcher-menu" id="themeSwitcherMenu" role="menu">
+    <button type="button" data-theme-pro="midnight" role="menuitem"><span class="theme-swatch sw-midnight"></span>Midnight</button>
+    <button type="button" data-theme-pro="graphite" role="menuitem"><span class="theme-swatch sw-graphite"></span>Graphite</button>
+    <button type="button" data-theme-pro="navy" role="menuitem"><span class="theme-swatch sw-navy"></span>Deep Navy</button>
+    <button type="button" data-theme-pro="forest" role="menuitem"><span class="theme-swatch sw-forest"></span>Dark Forest</button>
+    <button type="button" data-theme-pro="burgundy" role="menuitem"><span class="theme-swatch sw-burgundy"></span>Burgundy</button>
+  </div>
+</div>
+
+</nav>
   </header>
 
   <main>
@@ -115,11 +136,11 @@
       <div class="skills-grid">
         <div class="skill-group reveal">
           <span class="group-number">01</span><h3>Frontend</h3>
-          <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span><span>jQuery</span><span>React</span></div>
+          <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span class="tech-badge"><i class="fa-brands fa-js" aria-hidden="true"></i><span>JavaScript</span></span><span>Bootstrap</span><span>jQuery</span><span class="tech-badge"><i class="fa-brands fa-react" aria-hidden="true"></i><span>React</span></span></div>
         </div>
         <div class="skill-group reveal delay-1">
           <span class="group-number">02</span><h3>CMS & eCommerce</h3>
-          <div class="skill-tags"><span>WordPress</span><span>Shopify</span><span>WooCommerce</span></div>
+          <div class="skill-tags"><span class="tech-badge"><i class="fa-brands fa-wordpress" aria-hidden="true"></i><span>WordPress</span></span><span class="tech-badge"><i class="fa-brands fa-shopify" aria-hidden="true"></i><span>Shopify</span></span><span class="tech-badge"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i><span>WooCommerce</span></span></div>
         </div>
         <div class="skill-group reveal delay-2">
           <span class="group-number">03</span><h3>Growth & Analytics</h3>
@@ -135,22 +156,22 @@
         <article class="timeline-item reveal">
           <div class="timeline-date">OCT 2025 — PRESENT</div>
           <div class="timeline-dot"></div>
-          <div class="timeline-content"><p class="company">SEAMSKRAFT</p><h3>Frontend Web Developer</h3><p>Freelance WordPress and Shopify development, responsive websites and eCommerce stores. Work includes WooCommerce, SEO, GA4, GTM, GMB and website optimization.</p><div class="tags"><span>WordPress</span><span>Shopify</span><span>WooCommerce</span></div></div>
+          <div class="timeline-content"><p class="company">SEAMSKRAFT</p><h3>Frontend Web Developer</h3><p>Freelance WordPress and Shopify development, responsive websites and eCommerce stores. Work includes WooCommerce, SEO, GA4, GTM, GMB and website optimization.</p><div class="tags"><span class="tech-badge"><i class="fa-brands fa-wordpress" aria-hidden="true"></i><span>WordPress</span></span><span class="tech-badge"><i class="fa-brands fa-shopify" aria-hidden="true"></i><span>Shopify</span></span><span class="tech-badge"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i><span>WooCommerce</span></span></div></div>
         </article>
         <article class="timeline-item reveal">
           <div class="timeline-date">JUL 2024 — SEP 2025</div>
           <div class="timeline-dot"></div>
-          <div class="timeline-content"><p class="company">PLEXIMUS INC</p><h3>Frontend Web Developer</h3><p>Built dynamic, responsive interfaces with HTML, CSS, JavaScript, Bootstrap and jQuery. Collaborated with backend developers and worked with Blade templates in Laravel PHP, alongside Shopify eCommerce customization.</p><div class="tags"><span>JavaScript</span><span>Shopify</span><span>Blade</span></div></div>
+          <div class="timeline-content"><p class="company">PLEXIMUS INC</p><h3>Frontend Web Developer</h3><p>Built dynamic, responsive interfaces with HTML, CSS, JavaScript, Bootstrap and jQuery. Collaborated with backend developers and worked with Blade templates in Laravel PHP, alongside Shopify eCommerce customization.</p><div class="tags"><span class="tech-badge"><i class="fa-brands fa-js" aria-hidden="true"></i><span>JavaScript</span></span><span class="tech-badge"><i class="fa-brands fa-shopify" aria-hidden="true"></i><span>Shopify</span></span><span>Blade</span></div></div>
         </article>
         <article class="timeline-item reveal">
           <div class="timeline-date">DEC 2022 — JUL 2024</div>
           <div class="timeline-dot"></div>
-          <div class="timeline-content"><p class="company">ZIARAT PERFUMES</p><h3>Frontend Web Developer</h3><p>Developed responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and jQuery, with Shopify and WordPress customization and UI/UX improvements.</p><div class="tags"><span>Frontend</span><span>WordPress</span><span>Shopify</span></div></div>
+          <div class="timeline-content"><p class="company">ZIARAT PERFUMES</p><h3>Frontend Web Developer</h3><p>Developed responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and jQuery, with Shopify and WordPress customization and UI/UX improvements.</p><div class="tags"><span>Frontend</span><span class="tech-badge"><i class="fa-brands fa-wordpress" aria-hidden="true"></i><span>WordPress</span></span><span class="tech-badge"><i class="fa-brands fa-shopify" aria-hidden="true"></i><span>Shopify</span></span></div></div>
         </article>
         <article class="timeline-item reveal">
           <div class="timeline-date">JUN 2022 — NOV 2022</div>
           <div class="timeline-dot"></div>
-          <div class="timeline-content"><p class="company">HEURISTIC ACADEMY</p><h3>Frontend Trainee</h3><p>Started professional frontend development by creating responsive web interfaces and building experience in cross-browser compatibility, Git and clean code.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Git</span></div></div>
+          <div class="timeline-content"><p class="company">HEURISTIC ACADEMY</p><h3>Frontend Trainee</h3><p>Started professional frontend development by creating responsive web interfaces and building experience in cross-browser compatibility, Git and clean code.</p><div class="tags"><span class="tech-badge"><i class="fa-brands fa-html5" aria-hidden="true"></i><span>HTML</span></span><span class="tech-badge"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><span>CSS</span></span><span class="tech-badge"><i class="fa-brands fa-git-alt" aria-hidden="true"></i><span>Git</span></span></div></div>
         </article>
       </div>
     </section>
@@ -193,10 +214,10 @@
       <div class="section-label reveal">05 / SERVICES</div>
       <div class="section-heading reveal"><p class="eyebrow">WHAT I CAN DO</p><h2>From idea to<br><em>live website.</em></h2></div>
       <div class="services-grid">
-        <article class="service-card reveal"><span>01</span><div class="service-icon">⌘</div><h3>WordPress</h3><p>Website development, customization, WooCommerce, responsive design and UI improvements.</p><a href="#contact">Discuss a project ↗</a></article>
-        <article class="service-card reveal delay-1"><span>02</span><div class="service-icon">◇</div><h3>Shopify</h3><p>Theme customization, storefront design, product pages, responsive layouts and eCommerce improvements.</p><a href="#contact">Discuss a project ↗</a></article>
-        <article class="service-card reveal delay-2"><span>03</span><div class="service-icon">&lt;/&gt;</div><h3>HTML / CSS / JS</h3><p>Custom responsive pages, landing pages, UI sections and frontend development.</p><a href="#contact">Discuss a project ↗</a></article>
-        <article class="service-card reveal delay-3"><span>04</span><div class="service-icon">↗</div><h3>Optimization</h3><p>UI improvements, responsive fixes, basic SEO, analytics implementation and website enhancements.</p><a href="#contact">Discuss a project ↗</a></article>
+        <article class="service-card reveal"><span>01</span><div class="service-icon service-icon-brand" aria-label="WordPress"><i class="fa-brands fa-wordpress-simple" aria-hidden="true"></i></div><h3>WordPress</h3><p>Website development, customization, WooCommerce, responsive design and UI improvements.</p><a href="#contact">Discuss a project ↗</a></article>
+        <article class="service-card reveal delay-1"><span>02</span><div class="service-icon service-icon-brand" aria-label="Shopify"><i class="fa-brands fa-shopify" aria-hidden="true"></i></div><h3>Shopify</h3><p>Theme customization, storefront design, product pages, responsive layouts and eCommerce improvements.</p><a href="#contact">Discuss a project ↗</a></article>
+        <article class="service-card reveal delay-2"><span>03</span><div class="service-icon service-stack-icons" aria-label="HTML CSS JavaScript"><i class="fa-brands fa-html5" aria-hidden="true"></i><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><i class="fa-brands fa-js" aria-hidden="true"></i></div><h3>HTML / CSS / JS</h3><p>Custom responsive pages, landing pages, UI sections and frontend development.</p><a href="#contact">Discuss a project ↗</a></article>
+        <article class="service-card reveal delay-3"><span>04</span><div class="service-icon service-icon-brand" aria-label="Website optimization"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></div><h3>Optimization</h3><p>UI improvements, responsive fixes, basic SEO, analytics implementation and website enhancements.</p><a href="#contact">Discuss a project ↗</a></article>
       </div>
     </section>
 
@@ -227,38 +248,66 @@
       </div>
     </section>
 
-    <section class="cta-section" id="contact">
-      <div class="cta-orb"></div>
+    <section class="cta-section cta-premium" id="contact">
+      <div class="cta-grid-lines" aria-hidden="true"></div>
+      <div class="cta-orb cta-orb-one" aria-hidden="true"></div>
+      <div class="cta-orb cta-orb-two" aria-hidden="true"></div>
+      <div class="cta-index">07 <span>LET'S CREATE</span></div>
       <div class="cta-content reveal">
         <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-        <h2>Let's build something<br><em>great together.</em></h2>
-        <a class="btn btn-light" href="mailto:meghani9869@gmail.com?subject=Project%20Inquiry%20for%20Hamza%20Meghani">Start a Project <span>↗</span></a>
+        <h2>Let's turn your idea<br><em>into something real.</em></h2>
+        <p class="cta-subcopy">A clean, responsive and purposeful website — built around your goals, not a template.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="mailto:meghani9869@gmail.com?subject=Project%20Inquiry%20for%20Hamza%20Meghani">Start a Project <span>↗</span></a>
+          <a class="cta-whatsapp" href="https://wa.me/917977027359" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp me</a>
+        </div>
+      </div>
+      <div class="cta-side-note">
+        <span>AVAILABLE FOR</span>
+        <strong>WORDPRESS · SHOPIFY · FRONTEND</strong>
       </div>
     </section>
 
-    <section class="section contact">
-      <div class="section-label reveal">06 / CONTACT</div>
-      <div class="contact-grid">
-        <div class="reveal">
-          <p class="eyebrow">LET'S TALK</p>
-          <h2>Have an idea?<br><em>Let's make it real.</em></h2>
-          <p class="contact-copy">For website, Shopify, WordPress or frontend development work, send me a message and let's discuss the project.</p>
-          <div class="contact-details">
-            <a href="mailto:meghani9869@gmail.com"><small>EMAIL</small><strong>meghani9869@gmail.com</strong></a>
-            <div><small>LOCATION</small><strong>Mumbai, India</strong></div>
+    <section class="section contact contact-premium">
+      <div class="section-label reveal">08 / CONTACT</div>
+      <div class="contact-intro reveal">
+        <p class="eyebrow">LET'S TALK</p>
+        <h2>Have a brief?<br><em>Send it my way.</em></h2>
+      </div>
+      <div class="contact-grid contact-grid-premium">
+        <div class="contact-info-panel reveal">
+          <p class="contact-copy">Tell me what you're building, what needs fixing, or where you want to take the website next.</p>
+          <div class="contact-details contact-details-premium">
+            <a href="mailto:meghani9869@gmail.com" class="contact-detail">
+              <span class="contact-detail-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span>
+              <span><small>EMAIL</small><strong>meghani9869@gmail.com</strong></span>
+              <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+            </a>
+            <div class="contact-detail">
+              <span class="contact-detail-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+              <span><small>LOCATION</small><strong>Mumbai, India</strong></span>
+            </div>
+            <a href="tel:+917977027359" class="contact-detail">
+              <span class="contact-detail-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+              <span><small>PHONE / WHATSAPP</small><strong>+91 79770 27359</strong></span>
+              <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+            </a>
           </div>
-          <div class="socials">
-            <a href="https://github.com/dev-hamza7977" target="_blank" rel="noopener">GitHub ↗</a>
-            <a href="https://www.linkedin.com/in/hamza-meghani-7a6ba11a0/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <div class="socials socials-premium">
+            <a href="https://github.com/dev-hamza7977" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span><b>↗</b></a>
+            <a href="https://www.linkedin.com/in/hamza-meghani-7a6ba11a0/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span><b>↗</b></a>
           </div>
         </div>
-        <form class="contact-form reveal delay-1" id="contactForm">
-          <label>Name<input type="text" name="name" required placeholder="Your name"></label>
-          <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
-          <label>Project Type<select name="project"><option>WordPress</option><option>Shopify</option><option>HTML / CSS / JavaScript</option><option>Custom Website</option><option>Other</option></select></label>
-          <label>Message<textarea name="message" rows="5" required placeholder="Tell me a little about your project..."></textarea></label>
-          <button class="btn btn-primary" type="submit">Send Inquiry <span>↗</span></button>
-          <p class="form-note">This opens your email app with the project details.</p>
+        <form class="contact-form contact-form-premium reveal delay-1" id="contactForm">
+          <div class="form-topline"><span>PROJECT INQUIRY</span><span>01 — 04</span></div>
+          <label><span>Name</span><input type="text" name="name" required placeholder="Your name"></label>
+          <label><span>Email</span><input type="email" name="email" required placeholder="you@example.com"></label>
+          <label><span>Project Type</span><select name="project"><option>WordPress</option><option>Shopify</option><option>HTML / CSS / JavaScript</option><option>Custom Website</option><option>Other</option></select></label>
+          <label><span>Message</span><textarea name="message" rows="5" required placeholder="Tell me a little about your project..."></textarea></label>
+          <div class="form-bottom">
+            <p class="form-note">Your message opens directly in your email app.</p>
+            <button class="btn btn-primary" type="submit">Send Inquiry <span>↗</span></button>
+          </div>
         </form>
       </div>
     </section>
@@ -266,9 +315,25 @@
 
   <footer class="footer">
     <div><a class="footer-brand" href="#home">HAMZA MEGHANI</a><p>Frontend Web Developer</p></div>
-    <div class="footer-links"><a href="#home">Back to top ↑</a><span>© 2026 Hamza Meghani</span></div>
-  </footer>
+    <div class="footer-links"><a href="#home">Back to top ↑</a><a href="https://www.linkedin.com/in/hamza-meghani-7a6ba11a0/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a><a href="https://github.com/dev-hamza7977" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a><span>© 2026 Hamza Meghani</span></div>
+</footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
+
+<a class="floating-whatsapp"
+   href="https://wa.me/917977027359"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+</a>
+
+
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
 </body>
 </html>

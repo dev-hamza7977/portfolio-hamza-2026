@@ -1,17 +1,13 @@
-# Hamza Meghani — Portfolio
+HAMZA MEGHANI — FINAL FIXED PORTFOLIO
 
-A premium, responsive one-page portfolio built with plain HTML, CSS and JavaScript.
+This version fixes the blank-page/content visibility issue.
 
-## Files
-- index.html — page structure/content
-- style.css — responsive styling, animations and effects
-- script.js — navigation, scroll reveal, cursor glow and contact form
+Key fixes:
+- All sections and cards remain visible even if JavaScript fails or loads late.
+- Removed the JavaScript-dependent reveal hiding system.
+- Kept hover and UI animations.
+- Custom cursor remains desktop-only and follows the mouse after movement.
+- Technology logos: WordPress, Shopify, HTML5, CSS3, JavaScript and optimization.
+- Theme switcher, WhatsApp, responsive navigation and existing portfolio content retained.
 
-## How to use
-Open `index.html` in a browser.
-
-## Notes
-- Project links are based on the URLs listed in the provided resume.
-- The Weather App URL in the resume matched the Movies World URL, so its card is intentionally presented without an external link.
-- Contact form uses `mailto:` and therefore opens the visitor's email application; no backend is required.
-- Replace the CSS project mockups with real project screenshots later for an even stronger portfolio.
+Open index.html in a browser or deploy the folder to your hosting.
